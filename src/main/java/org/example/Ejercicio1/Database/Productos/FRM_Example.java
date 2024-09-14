@@ -1,4 +1,4 @@
-package org.example.Formas.Productos;
+package org.example.Ejercicio1.Database.Productos;
 
 import org.example.Ejercicio1.Database.Model.Datos;
 import org.example.Ejercicio1.Database.Service.DatosService;
@@ -10,14 +10,7 @@ import java.text.SimpleDateFormat;
 import java.lang.String;
 import java.util.Date;
 
-public class FRM_Example {
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("FRM_Example");
-        frame.setContentPane(new FRM_Example().JPanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-    }
+public class FRM_Example extends JFrame{
 
     private JPanel rootPanel;
     private JLabel lbl_Nombre;
